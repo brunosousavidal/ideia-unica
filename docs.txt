@@ -81,3 +81,19 @@ incluir em props (revalidate: 1) para colocar como validade da pagina estatica c
 isso fará que o navegador solicite ao backend que revalide a informação do
 getStaticProps
 
+Criar uma requisição ao site ConvertKit para saber quantos inscritos tem na newsletter no felipe
+criar o arquivo .env na raiz para incluir a variavel de ambiente com o codigo chave da conta de usuario
+no gitignore o arquivo .env criado está setado para não aparecer no github
+
+criptografar as variaveis de ambiente no vercel
+entre no projeto, em seguida clique em settings, environment variables
+passo 1 qual o tipo de dado - secret
+passo 2 incluir o nome da variavel - CONVERTKIT_API_SECRET
+crie um apelido para a variavel de ambiente
+inclua o valor a ser encriptado
+por fim salve
+passo 3 quais ambiente ela estara disponivel
+produção e homologação
+marque automatically expose, para que as variaveis de ambiente do vercel fiquem disponiveis
+
+
