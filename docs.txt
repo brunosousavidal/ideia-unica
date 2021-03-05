@@ -52,3 +52,5 @@ crie o tempo.js
 utilize getStaticProps
 para pegar dados da pagina estatica
 fazer o commit, push e ver no vercel
+as duas datas virão iguais do back-end, como visto no codigo da pagina
+mas quando chega no browser a data dinamica será corrigida pelo navegador
