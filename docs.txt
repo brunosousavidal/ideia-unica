@@ -70,3 +70,10 @@ na ferramenta dev (f12), clique em console
 
 criando uma função assincrona de delay
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+esse delay em desenvolvimento faz com que o navegador demore 5 segundos para atualizar a pagina
+mas quando publicado no vercel, esse atrazo aparece somente no deploy, uma unica vez
+no navegador a pagina atualiza muito rapido
+
+Agora corrigindo o problema informação estatica da pagina que só está sendo feita no deploy
+retirando os artefatos de delay
+
