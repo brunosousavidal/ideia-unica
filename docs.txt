@@ -1,0 +1,11 @@
+instalar no windowsshell
+chocolatey
+choco install nodejs.install
+
+no vscode
+yarn init -y
+yarn add next, cria no projeto o node junto
+
+yarn add react
+yarn add react-dom
+
