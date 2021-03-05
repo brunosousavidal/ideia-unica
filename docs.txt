@@ -77,3 +77,7 @@ no navegador a pagina atualiza muito rapido
 Agora corrigindo o problema informação estatica da pagina que só está sendo feita no deploy
 retirando os artefatos de delay
 
+incluir em props (revalidate: 1) para colocar como validade da pagina estatica com 1 segundo
+isso fará que o navegador solicite ao backend que revalide a informação do
+getStaticProps
+
