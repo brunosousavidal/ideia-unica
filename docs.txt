@@ -54,3 +54,19 @@ para pegar dados da pagina estatica
 fazer o commit, push e ver no vercel
 as duas datas virão iguais do back-end, como visto no codigo da pagina
 mas quando chega no browser a data dinamica será corrigida pelo navegador
+
+dentro do projeto no vercel, na gui Deployments ao lado de overview
+você pode ver todos os deploy ja realizados de
+e nos tres pontos ao lado de cada deploy, você pode colocar em produção
+
+como o getStaticProps e executado somente na build
+o console.log("> Passando pelo getStaticProps();");
+vai aparecer apenas do deploy no vercel
+para visualizar o log, va na lista dos deploys e peça Inspected Deployments
+
+e o console.log("> Passando pelo FrontEnd;");
+esse você consegue vê-lo no frontend, ou seja no navegador
+na ferramenta dev (f12), clique em console
+
+criando uma função assincrona de delay
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
