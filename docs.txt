@@ -2,10 +2,48 @@ instalar no windowsshell
 chocolatey
 choco install nodejs.install
 
+criar um repositorio no github
+adicionar o gitignore node
+fazer o clone do projeto na maquina
+
 no vscode
 yarn init -y
 yarn add next, cria no projeto o node junto
 
 yarn add react
 yarn add react-dom
+
+configurar o package.json
+yarn dev
+
+fazer o commit com github desktop na branch
+fazer o push request
+
+abrir a vercel
+logar com o github
+new project
+Import Git Repository
+repositorio brunosousavidal
+search o nome do repositorio se não achar habilite no
+botão configure github app
+Repository access
+selecione o repositorio e save
+copia o endereço da pagina no github
+feche a janela em seguida clique em import
+selecione o usuario
+defina a tecnologia a ser usada
+deploy realizado
+
+Para publicar o site com um dominio .com.br (registrado)
+criar o dominio no site registro.br
+no vercel entre no projeto em seguida settings - domains
+incluir o nome do site criado, adicionar
+na guia nameservers, copie o nome dos dns criados e inclua no dns do site registro.br
+
+no site whatsmydns.net, para ver a propagação do dns do site pelo mundo
+
+Tornar a pagina mais dinamica
+usar o link do nextjs
+commitar na breach
+fazer push e automaticamente publicar no vercel ent
 
