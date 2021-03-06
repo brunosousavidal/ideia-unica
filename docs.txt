@@ -96,4 +96,6 @@ passo 3 quais ambiente ela estara disponivel
 produção e homologação
 marque automatically expose, para que as variaveis de ambiente do vercel fiquem disponiveis
 
+Criando cache no backend para diminuir a sobrecarga de requisições do frontend evitando sobrecarga na API ou banco de dados
+stale-while-revalidate
 
