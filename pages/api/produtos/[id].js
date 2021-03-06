@@ -1,5 +1,5 @@
 //importar um hook de rotas para tratar as rotas
-import {userRouter} from 'next/router';
+import { userRouter } from 'next/router';
 
 function Produtos() {
   const router = userRouter();
