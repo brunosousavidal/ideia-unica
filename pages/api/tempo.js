@@ -7,8 +7,9 @@ async function tempo(request, response) {
   const subscriberResponse = await fetch(`https://api.convertkit.com/v3/subscribers?api_secret=${apiSecret}`);
   //recebe no formato de um json
   const subscriberResponseJson =await subscriberResponse.json();
-  //pega somente o total de inscritos
-  const inscritos = subscriberResponseJson.total_subscribers;
+  //pega somente o total de inscritos(como a chave é invalida vai retornar a message da api)
+  //const inscritos = subscriberResponseJson.total_subscribers;
+  const inscritos = subscriberResponseJson.message;
   
   response.json({
     date: dynamicDate.toGMTString(),
