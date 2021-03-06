@@ -1,4 +1,5 @@
 import { useState } from "react";
+//biblioteca para não precisar reconstruir toda a tela
 import Link from "next/link";
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
 			<h1>Home</h1>
 			<Contador />
       
+      {/* conecta as paginas de forma especial no servidor vercel */}
 			<Link href="/sobre">
 				<a>Acessar página Sobre</a>
 			</Link>

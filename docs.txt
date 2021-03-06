@@ -42,8 +42,18 @@ na guia nameservers, copie o nome dos dns criados e inclua no dns do site regist
 
 no site whatsmydns.net, para ver a propagação do dns do site pelo mundo
 
+Pagina Estatica no ar, graças ao file-system Routing - automaticamente gera as rotas do site
+na pasta pages - paginas .js ou .ts viram paginas na web
+/pages/index.js -> site.com/index
+/pages/sobre.js -> site.com/sobre
+/pages/tempo.js -> site.com/tempo
+na pasta api - cria rotas
+/pages/api/tempo.js -> site.com/api/tempo
+
 Tornar a pagina mais dinamica
-usar o link do nextjs
+tipo site.com/produtos/[parametro]
+usar o link do nextjs - vincula as paginas estatica
+cria no servidor uma "prefetch" - pre-busca, para dinamizar o acesso as paginas
 commitar na breach
 fazer push e automaticamente publicar no vercel ent
 
@@ -98,4 +108,10 @@ marque automatically expose, para que as variaveis de ambiente do vercel fiquem 
 
 Criando cache no backend para diminuir a sobrecarga de requisições do frontend evitando sobrecarga na API ou banco de dados
 stale-while-revalidate
+
+utilizar dynamic routes
+criar dentro de pages a pagina produtos
+crie o arquivo [id].js
+/pages/produtos/[id].js -> site.com/produtos/[id]
+assim posso capturar qualquer valor para gerar rotas dinamicamente
 
