@@ -15,7 +15,7 @@ async function tempo(request, response) {
   //header do tipo controle do cache
   //valor = endpoint com cache no servidor da vercel de 10 segundos
   //stale-while-revalidate - responder instantaneamente enquanto a vercel tenta autualizar a cache
-  response.setHeader('Cache-Control', 's-maxage-10', 'stale-while-revalidate');
+  response.setHeader('Cache-Control', 's-maxage=10', 'stale-while-revalidate');
   response.json({
     date: dynamicDate.toGMTString(),
     inscritos: inscritos
