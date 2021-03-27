@@ -128,3 +128,5 @@ Inscremental Static Generation
 1 - getStaticProps (pega props unica vez na build da pagina)
 2 - getServerSideProps (pega props a qualquer momento em tempo de execução)
 3 - getStaticPath (pega props em tempo de execução no lado do servidor e com a opção de estar disponivel nas CDN's do servidor)
+
+implementar e publicar no vercel
